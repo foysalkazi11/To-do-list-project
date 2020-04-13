@@ -1,0 +1,135 @@
+body{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+#container{
+  width: 90%;
+  max-width: 960px;
+  height: auto;
+  margin: 20px auto;
+  box-shadow:0px 2px 5px rgba(128, 128, 128,0.5);
+  
+}
+
+#heading{
+  background: rgb(238, 238, 238) ;
+  padding: 10px 0;
+}
+#heading h1, #heading p{
+  width: 100%;
+  text-align: center;
+}
+
+#heading form{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+#heading input{
+  width: 90%;
+  max-width: 300px;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  
+}
+
+#read-book ul{
+  list-style-type: none;
+  margin: 30px;
+
+}
+
+#read-book li{
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px 10px;
+  border-left: 5px solid rgba(128, 128, 128,0.5);
+}
+
+#read-book li:hover{
+  border-color: rgb(147, 97, 191);
+}
+
+#read-book li a{
+  width: 100px;
+  float: right;
+  text-align: center;
+  font-size: 20px;
+ color: white;
+  cursor: pointer;
+  
+  background-color:rgb(147, 97, 191) ;
+
+  
+  
+}
+
+
+
+/* #add-book{
+  width: 100%;
+  
+} */
+
+#add-book form:nth-child(2){
+  display: flex;
+  width: 400px;
+  margin: auto;
+  padding: 50px 0;
+  
+  
+  
+}
+
+#add-book form:nth-child(2) input{
+  
+  width: 300px;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline-style: none;
+  
+}
+#add-book form:nth-child(2) button{
+ 
+  width: 100px;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 0 4px 4px 0;
+  background-color:rgb(147, 97, 191) ;
+  border: 1px solid rgb(147, 97, 191);
+  outline-style: none;
+  cursor: pointer;
+  color: white;
+  
+  
+  
+}
+
+
+ #add-book form:nth-child(1){
+  width: 400px;
+  margin:20px auto 0 auto;
+  
+ }
+
+ #add-book form:nth-child(1) #hide{
+   margin:0 0 0 10px;
+   
+
+ }
+
+
+
+
+
